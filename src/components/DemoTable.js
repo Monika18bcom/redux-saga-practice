@@ -51,6 +51,8 @@ function DemoTable(props) {
         rows,
         prepareRow,
     } = useTable({columns, data}, useRowSelect, useFilters, useSortBy)
+
+    console.log("demoTable file")
     return (
         <div>
             <table {...getTableProps()}>
